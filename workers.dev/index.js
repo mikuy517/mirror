@@ -14,7 +14,7 @@ Disallow: /
    return new Response(robots,{ status: 200 });
   }
 
-  const targetDomain = 'http://143.44.136.112';
+  const targetDomain = 'http://143.44.136.112:6910/001/2/ch00000090990000001183/manifest.mpd?virtualDomain=001.live_hls.zte.com';
   const origin = `https://${targetDomain}`; 
   const actualUrl = new URL(`${origin}${pathname}${url.search}${url.hash}`); 
 
