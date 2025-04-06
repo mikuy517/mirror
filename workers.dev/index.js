@@ -14,7 +14,7 @@ Disallow: /
    return new Response(robots,{ status: 200 });
   }
 
-  const targetDomain = 'www.proxysites.ai';
+  const targetDomain = 'http://143.44.136.112';
   const origin = `https://${targetDomain}`; 
   const actualUrl = new URL(`${origin}${pathname}${url.search}${url.hash}`); 
 
